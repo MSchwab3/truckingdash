@@ -28,7 +28,7 @@ export default function Home() {
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Real-time Tracking</h3>
-              <p className="text-gray-600 dark:text-gray-300">Monitor your fleet's location and status in real-time</p>
+              <p className="text-gray-600 dark:text-gray-300">Monitor your fleet&apos;s location and status in real-time</p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Route Optimization</h3>
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Analytics Dashboard</h3>
-              <p className="text-gray-600 dark:text-gray-300">Comprehensive insights into your fleet's performance</p>
+              <p className="text-gray-600 dark:text-gray-300">Comprehensive insights into your fleet&apos;s performance</p>
             </div>
           </div>
         </div>

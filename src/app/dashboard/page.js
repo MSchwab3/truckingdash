@@ -29,6 +29,12 @@ export default function Dashboard() {
   }, []);
 
   useEffect(() => {
+    if (!user && !loading) {
+      router.push('/login');
+    }
+  }, [user, loading, router]);
+
+  useEffect(() => {
     if (!user) return;
     setFetching(true);
     setError(null);
@@ -101,12 +107,6 @@ export default function Dashboard() {
       </div>
     );
   }
-
-  useEffect(() => {
-    if (!user && !loading) {
-      router.push('/login');
-    }
-  }, [user, loading, router]);
 
   if (!user) {
     return null;
